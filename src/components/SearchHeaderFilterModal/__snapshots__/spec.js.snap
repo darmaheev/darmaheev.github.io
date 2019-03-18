@@ -1,0 +1,949 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders searchHeaderFilterModal 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <SearchHeaderFilterModal
+    filterList={Array []}
+    filters={Array []}
+    isOpen={false}
+    onChangeFilters={[Function]}
+    onClose={[Function]}
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "class",
+    "props": Object {
+      "ariaHideApp": true,
+      "bodyOpenClassName": "ReactModal__Body--open",
+      "children": Array [
+        <ForwardRef>
+          <ForwardRef>
+            Type filters
+          </ForwardRef>
+          <ForwardRef
+            onClick={[Function]}
+          >
+            ×
+          </ForwardRef>
+        </ForwardRef>,
+        <ForwardRef>
+          <Dropdown
+            onChange={[Function]}
+            options={Array []}
+            placeholder="Select type"
+          />
+          <TagList
+            handleDelete={[Function]}
+            tags={Array []}
+          />
+        </ForwardRef>,
+        <ForwardRef>
+          <ForwardRef
+            onClick={[Function]}
+          >
+            Ok
+          </ForwardRef>
+          <ForwardRef
+            isString={true}
+            onClick={[Function]}
+          >
+            Cancel
+          </ForwardRef>
+        </ForwardRef>,
+      ],
+      "closeTimeoutMS": 0,
+      "isOpen": false,
+      "onRequestClose": [Function],
+      "parentSelector": [Function],
+      "portalClassName": "ReactModalPortal",
+      "role": "dialog",
+      "shouldCloseOnEsc": true,
+      "shouldCloseOnOverlayClick": true,
+      "shouldFocusAfterRender": true,
+      "shouldReturnFocusAfterClose": true,
+      "style": Object {
+        "content": Object {
+          "border": 0,
+          "borderRadius": 4,
+          "bottom": "none",
+          "display": "flex",
+          "flexDirection": "column",
+          "justifyContent": "flex-start",
+          "margin": "0 auto",
+          "maxWidth": 640,
+          "minHeight": 350,
+          "padding": 0,
+        },
+        "overlay": Object {
+          "backgroundColor": "rgba(0,0,0,0.2)",
+        },
+      },
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "function",
+        "props": Object {
+          "children": Array [
+            <ForwardRef>
+              Type filters
+            </ForwardRef>,
+            <ForwardRef
+              onClick={[Function]}
+            >
+              ×
+            </ForwardRef>,
+          ],
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {
+              "children": "Type filters",
+            },
+            "ref": null,
+            "rendered": "Type filters",
+            "type": Object {
+              "$$typeof": Symbol(react.forward_ref),
+              "attrs": Array [],
+              "componentStyle": ComponentStyle {
+                "componentId": "sc-EHOje",
+                "isStatic": true,
+                "rules": Array [
+                  "
+  margin: 0;
+  color: var(--modal-header-color);
+",
+                ],
+              },
+              "displayName": "styled.h4",
+              "foldedComponentIds": Array [],
+              "render": [Function],
+              "styledComponentId": "sc-EHOje",
+              "target": "h4",
+              "toString": [Function],
+              "warnTooManyClasses": [Function],
+              "withComponent": [Function],
+            },
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {
+              "children": "×",
+              "onClick": [Function],
+            },
+            "ref": null,
+            "rendered": "×",
+            "type": Object {
+              "$$typeof": Symbol(react.forward_ref),
+              "attrs": Array [
+                Object {
+                  "type": "button",
+                },
+              ],
+              "componentStyle": ComponentStyle {
+                "componentId": "sc-bZQynM",
+                "isStatic": true,
+                "rules": Array [
+                  "
+  border: 0;
+  background-color: transparent;
+  color: var(--modal-header-color);
+  margin-left: auto;
+  font-size: 32px;
+  padding: 0;
+",
+                ],
+              },
+              "displayName": "styled.button",
+              "foldedComponentIds": Array [],
+              "render": [Function],
+              "styledComponentId": "sc-bZQynM",
+              "target": "button",
+              "toString": [Function],
+              "warnTooManyClasses": [Function],
+              "withComponent": [Function],
+            },
+          },
+        ],
+        "type": Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "attrs": Array [],
+          "componentStyle": ComponentStyle {
+            "componentId": "sc-ifAKCX",
+            "isStatic": true,
+            "rules": Array [
+              "
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 60px;
+  background-color: var(--modal-header-background-color);
+  border-bottom: 1px solid var(--modal-border-color);
+  padding: 20px;
+",
+            ],
+          },
+          "displayName": "styled.header",
+          "foldedComponentIds": Array [],
+          "render": [Function],
+          "styledComponentId": "sc-ifAKCX",
+          "target": "header",
+          "toString": [Function],
+          "warnTooManyClasses": [Function],
+          "withComponent": [Function],
+        },
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "function",
+        "props": Object {
+          "children": Array [
+            <Dropdown
+              onChange={[Function]}
+              options={Array []}
+              placeholder="Select type"
+            />,
+            <TagList
+              handleDelete={[Function]}
+              tags={Array []}
+            />,
+          ],
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {
+              "onChange": [Function],
+              "options": Array [],
+              "placeholder": "Select type",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {
+              "handleDelete": [Function],
+              "tags": Array [],
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+        ],
+        "type": Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "attrs": Array [],
+          "componentStyle": ComponentStyle {
+            "componentId": "sc-gzVnrw",
+            "isStatic": true,
+            "rules": Array [
+              "
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  padding: 20px;
+  flex: 1;  
+",
+            ],
+          },
+          "displayName": "styled.div",
+          "foldedComponentIds": Array [],
+          "render": [Function],
+          "styledComponentId": "sc-gzVnrw",
+          "target": "div",
+          "toString": [Function],
+          "warnTooManyClasses": [Function],
+          "withComponent": [Function],
+        },
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "function",
+        "props": Object {
+          "children": Array [
+            <ForwardRef
+              onClick={[Function]}
+            >
+              Ok
+            </ForwardRef>,
+            <ForwardRef
+              isString={true}
+              onClick={[Function]}
+            >
+              Cancel
+            </ForwardRef>,
+          ],
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {
+              "children": "Ok",
+              "onClick": [Function],
+            },
+            "ref": null,
+            "rendered": "Ok",
+            "type": Object {
+              "$$typeof": Symbol(react.forward_ref),
+              "attrs": Array [],
+              "componentStyle": ComponentStyle {
+                "componentId": "sc-dnqmqq",
+                "isStatic": false,
+                "rules": Array [
+                  "
+  display: inline-block;
+  font-family: Roboto;
+  font-size: 14px;
+  line-height: 1.35;
+  letter-spacing: 2px;
+  font-weight: 700;
+  text-transform: uppercase;
+  height: 40px;
+  border: 0px none;
+  padding: 8px 33px;
+  border-radius: 4px;
+
+  &,
+  &:hover,
+  &:focus {
+    color: #fff;
+  }
+
+  &:focus,
+  &:active {
+    outline: none;
+  }
+
+  background: var(--button-background-color-primary);
+
+  &:hover {
+    background: var(--button-background-color-primary-hover);
+  }
+
+  &:active {
+    background: var(--button-background-color-primary-hover)
+  }
+
+  ",
+                  [Function],
+                  ";
+",
+                ],
+              },
+              "displayName": "styled.button",
+              "foldedComponentIds": Array [],
+              "render": [Function],
+              "styledComponentId": "sc-dnqmqq",
+              "target": "button",
+              "toString": [Function],
+              "warnTooManyClasses": [Function],
+              "withComponent": [Function],
+            },
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {
+              "children": "Cancel",
+              "isString": true,
+              "onClick": [Function],
+            },
+            "ref": null,
+            "rendered": "Cancel",
+            "type": Object {
+              "$$typeof": Symbol(react.forward_ref),
+              "attrs": Array [],
+              "componentStyle": ComponentStyle {
+                "componentId": "sc-dnqmqq",
+                "isStatic": false,
+                "rules": Array [
+                  "
+  display: inline-block;
+  font-family: Roboto;
+  font-size: 14px;
+  line-height: 1.35;
+  letter-spacing: 2px;
+  font-weight: 700;
+  text-transform: uppercase;
+  height: 40px;
+  border: 0px none;
+  padding: 8px 33px;
+  border-radius: 4px;
+
+  &,
+  &:hover,
+  &:focus {
+    color: #fff;
+  }
+
+  &:focus,
+  &:active {
+    outline: none;
+  }
+
+  background: var(--button-background-color-primary);
+
+  &:hover {
+    background: var(--button-background-color-primary-hover);
+  }
+
+  &:active {
+    background: var(--button-background-color-primary-hover)
+  }
+
+  ",
+                  [Function],
+                  ";
+",
+                ],
+              },
+              "displayName": "styled.button",
+              "foldedComponentIds": Array [],
+              "render": [Function],
+              "styledComponentId": "sc-dnqmqq",
+              "target": "button",
+              "toString": [Function],
+              "warnTooManyClasses": [Function],
+              "withComponent": [Function],
+            },
+          },
+        ],
+        "type": Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "attrs": Array [],
+          "componentStyle": ComponentStyle {
+            "componentId": "sc-htoDjs",
+            "isStatic": true,
+            "rules": Array [
+              "
+  border-top: 1px solid #ebedef;
+  padding: 20px;
+  text-align: left;
+  display: flex;
+  flex-direction: row;
+",
+            ],
+          },
+          "displayName": "styled.div",
+          "foldedComponentIds": Array [],
+          "render": [Function],
+          "styledComponentId": "sc-htoDjs",
+          "target": "div",
+          "toString": [Function],
+          "warnTooManyClasses": [Function],
+          "withComponent": [Function],
+        },
+      },
+    ],
+    "type": [Function],
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "class",
+      "props": Object {
+        "ariaHideApp": true,
+        "bodyOpenClassName": "ReactModal__Body--open",
+        "children": Array [
+          <ForwardRef>
+            <ForwardRef>
+              Type filters
+            </ForwardRef>
+            <ForwardRef
+              onClick={[Function]}
+            >
+              ×
+            </ForwardRef>
+          </ForwardRef>,
+          <ForwardRef>
+            <Dropdown
+              onChange={[Function]}
+              options={Array []}
+              placeholder="Select type"
+            />
+            <TagList
+              handleDelete={[Function]}
+              tags={Array []}
+            />
+          </ForwardRef>,
+          <ForwardRef>
+            <ForwardRef
+              onClick={[Function]}
+            >
+              Ok
+            </ForwardRef>
+            <ForwardRef
+              isString={true}
+              onClick={[Function]}
+            >
+              Cancel
+            </ForwardRef>
+          </ForwardRef>,
+        ],
+        "closeTimeoutMS": 0,
+        "isOpen": false,
+        "onRequestClose": [Function],
+        "parentSelector": [Function],
+        "portalClassName": "ReactModalPortal",
+        "role": "dialog",
+        "shouldCloseOnEsc": true,
+        "shouldCloseOnOverlayClick": true,
+        "shouldFocusAfterRender": true,
+        "shouldReturnFocusAfterClose": true,
+        "style": Object {
+          "content": Object {
+            "border": 0,
+            "borderRadius": 4,
+            "bottom": "none",
+            "display": "flex",
+            "flexDirection": "column",
+            "justifyContent": "flex-start",
+            "margin": "0 auto",
+            "maxWidth": 640,
+            "minHeight": 350,
+            "padding": 0,
+          },
+          "overlay": Object {
+            "backgroundColor": "rgba(0,0,0,0.2)",
+          },
+        },
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "children": Array [
+              <ForwardRef>
+                Type filters
+              </ForwardRef>,
+              <ForwardRef
+                onClick={[Function]}
+              >
+                ×
+              </ForwardRef>,
+            ],
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "children": "Type filters",
+              },
+              "ref": null,
+              "rendered": "Type filters",
+              "type": Object {
+                "$$typeof": Symbol(react.forward_ref),
+                "attrs": Array [],
+                "componentStyle": ComponentStyle {
+                  "componentId": "sc-EHOje",
+                  "isStatic": true,
+                  "rules": Array [
+                    "
+  margin: 0;
+  color: var(--modal-header-color);
+",
+                  ],
+                },
+                "displayName": "styled.h4",
+                "foldedComponentIds": Array [],
+                "render": [Function],
+                "styledComponentId": "sc-EHOje",
+                "target": "h4",
+                "toString": [Function],
+                "warnTooManyClasses": [Function],
+                "withComponent": [Function],
+              },
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "children": "×",
+                "onClick": [Function],
+              },
+              "ref": null,
+              "rendered": "×",
+              "type": Object {
+                "$$typeof": Symbol(react.forward_ref),
+                "attrs": Array [
+                  Object {
+                    "type": "button",
+                  },
+                ],
+                "componentStyle": ComponentStyle {
+                  "componentId": "sc-bZQynM",
+                  "isStatic": true,
+                  "rules": Array [
+                    "
+  border: 0;
+  background-color: transparent;
+  color: var(--modal-header-color);
+  margin-left: auto;
+  font-size: 32px;
+  padding: 0;
+",
+                  ],
+                },
+                "displayName": "styled.button",
+                "foldedComponentIds": Array [],
+                "render": [Function],
+                "styledComponentId": "sc-bZQynM",
+                "target": "button",
+                "toString": [Function],
+                "warnTooManyClasses": [Function],
+                "withComponent": [Function],
+              },
+            },
+          ],
+          "type": Object {
+            "$$typeof": Symbol(react.forward_ref),
+            "attrs": Array [],
+            "componentStyle": ComponentStyle {
+              "componentId": "sc-ifAKCX",
+              "isStatic": true,
+              "rules": Array [
+                "
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 60px;
+  background-color: var(--modal-header-background-color);
+  border-bottom: 1px solid var(--modal-border-color);
+  padding: 20px;
+",
+              ],
+            },
+            "displayName": "styled.header",
+            "foldedComponentIds": Array [],
+            "render": [Function],
+            "styledComponentId": "sc-ifAKCX",
+            "target": "header",
+            "toString": [Function],
+            "warnTooManyClasses": [Function],
+            "withComponent": [Function],
+          },
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "children": Array [
+              <Dropdown
+                onChange={[Function]}
+                options={Array []}
+                placeholder="Select type"
+              />,
+              <TagList
+                handleDelete={[Function]}
+                tags={Array []}
+              />,
+            ],
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "onChange": [Function],
+                "options": Array [],
+                "placeholder": "Select type",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "handleDelete": [Function],
+                "tags": Array [],
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+          ],
+          "type": Object {
+            "$$typeof": Symbol(react.forward_ref),
+            "attrs": Array [],
+            "componentStyle": ComponentStyle {
+              "componentId": "sc-gzVnrw",
+              "isStatic": true,
+              "rules": Array [
+                "
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  padding: 20px;
+  flex: 1;  
+",
+              ],
+            },
+            "displayName": "styled.div",
+            "foldedComponentIds": Array [],
+            "render": [Function],
+            "styledComponentId": "sc-gzVnrw",
+            "target": "div",
+            "toString": [Function],
+            "warnTooManyClasses": [Function],
+            "withComponent": [Function],
+          },
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "children": Array [
+              <ForwardRef
+                onClick={[Function]}
+              >
+                Ok
+              </ForwardRef>,
+              <ForwardRef
+                isString={true}
+                onClick={[Function]}
+              >
+                Cancel
+              </ForwardRef>,
+            ],
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "children": "Ok",
+                "onClick": [Function],
+              },
+              "ref": null,
+              "rendered": "Ok",
+              "type": Object {
+                "$$typeof": Symbol(react.forward_ref),
+                "attrs": Array [],
+                "componentStyle": ComponentStyle {
+                  "componentId": "sc-dnqmqq",
+                  "isStatic": false,
+                  "rules": Array [
+                    "
+  display: inline-block;
+  font-family: Roboto;
+  font-size: 14px;
+  line-height: 1.35;
+  letter-spacing: 2px;
+  font-weight: 700;
+  text-transform: uppercase;
+  height: 40px;
+  border: 0px none;
+  padding: 8px 33px;
+  border-radius: 4px;
+
+  &,
+  &:hover,
+  &:focus {
+    color: #fff;
+  }
+
+  &:focus,
+  &:active {
+    outline: none;
+  }
+
+  background: var(--button-background-color-primary);
+
+  &:hover {
+    background: var(--button-background-color-primary-hover);
+  }
+
+  &:active {
+    background: var(--button-background-color-primary-hover)
+  }
+
+  ",
+                    [Function],
+                    ";
+",
+                  ],
+                },
+                "displayName": "styled.button",
+                "foldedComponentIds": Array [],
+                "render": [Function],
+                "styledComponentId": "sc-dnqmqq",
+                "target": "button",
+                "toString": [Function],
+                "warnTooManyClasses": [Function],
+                "withComponent": [Function],
+              },
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "children": "Cancel",
+                "isString": true,
+                "onClick": [Function],
+              },
+              "ref": null,
+              "rendered": "Cancel",
+              "type": Object {
+                "$$typeof": Symbol(react.forward_ref),
+                "attrs": Array [],
+                "componentStyle": ComponentStyle {
+                  "componentId": "sc-dnqmqq",
+                  "isStatic": false,
+                  "rules": Array [
+                    "
+  display: inline-block;
+  font-family: Roboto;
+  font-size: 14px;
+  line-height: 1.35;
+  letter-spacing: 2px;
+  font-weight: 700;
+  text-transform: uppercase;
+  height: 40px;
+  border: 0px none;
+  padding: 8px 33px;
+  border-radius: 4px;
+
+  &,
+  &:hover,
+  &:focus {
+    color: #fff;
+  }
+
+  &:focus,
+  &:active {
+    outline: none;
+  }
+
+  background: var(--button-background-color-primary);
+
+  &:hover {
+    background: var(--button-background-color-primary-hover);
+  }
+
+  &:active {
+    background: var(--button-background-color-primary-hover)
+  }
+
+  ",
+                    [Function],
+                    ";
+",
+                  ],
+                },
+                "displayName": "styled.button",
+                "foldedComponentIds": Array [],
+                "render": [Function],
+                "styledComponentId": "sc-dnqmqq",
+                "target": "button",
+                "toString": [Function],
+                "warnTooManyClasses": [Function],
+                "withComponent": [Function],
+              },
+            },
+          ],
+          "type": Object {
+            "$$typeof": Symbol(react.forward_ref),
+            "attrs": Array [],
+            "componentStyle": ComponentStyle {
+              "componentId": "sc-htoDjs",
+              "isStatic": true,
+              "rules": Array [
+                "
+  border-top: 1px solid #ebedef;
+  padding: 20px;
+  text-align: left;
+  display: flex;
+  flex-direction: row;
+",
+              ],
+            },
+            "displayName": "styled.div",
+            "foldedComponentIds": Array [],
+            "render": [Function],
+            "styledComponentId": "sc-htoDjs",
+            "target": "div",
+            "toString": [Function],
+            "warnTooManyClasses": [Function],
+            "withComponent": [Function],
+          },
+        },
+      ],
+      "type": [Function],
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromProps": Object {
+            "hasShouldComponentUpdateBug": false,
+          },
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+  Symbol(enzyme.__childContext__): null,
+}
+`;
