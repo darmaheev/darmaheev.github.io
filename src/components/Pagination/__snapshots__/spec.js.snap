@@ -65,6 +65,7 @@ ShallowWrapper {
             "isStatic": false,
             "rules": Array [
               "
+  margin-top: 10px;
   &:not(:last-child) {
     margin-right: 10px;
   }
@@ -102,6 +103,7 @@ ShallowWrapper {
   padding: var(--pagination-padding);
   width: var(--pagination-width);
   min-height: var(--pagination-height);
+  flex-wrap: wrap;
 ",
         ],
       },
@@ -160,6 +162,7 @@ ShallowWrapper {
               "isStatic": false,
               "rules": Array [
                 "
+  margin-top: 10px;
   &:not(:last-child) {
     margin-right: 10px;
   }
@@ -197,6 +200,7 @@ ShallowWrapper {
   padding: var(--pagination-padding);
   width: var(--pagination-width);
   min-height: var(--pagination-height);
+  flex-wrap: wrap;
 ",
           ],
         },
@@ -311,6 +315,7 @@ ShallowWrapper {
             "isStatic": false,
             "rules": Array [
               "
+  margin-top: 10px;
   &:not(:last-child) {
     margin-right: 10px;
   }
@@ -350,6 +355,7 @@ ShallowWrapper {
             "isStatic": false,
             "rules": Array [
               "
+  margin-top: 10px;
   &:not(:last-child) {
     margin-right: 10px;
   }
@@ -387,6 +393,7 @@ ShallowWrapper {
   padding: var(--pagination-padding);
   width: var(--pagination-width);
   min-height: var(--pagination-height);
+  flex-wrap: wrap;
 ",
         ],
       },
@@ -452,6 +459,7 @@ ShallowWrapper {
               "isStatic": false,
               "rules": Array [
                 "
+  margin-top: 10px;
   &:not(:last-child) {
     margin-right: 10px;
   }
@@ -491,6 +499,7 @@ ShallowWrapper {
               "isStatic": false,
               "rules": Array [
                 "
+  margin-top: 10px;
   &:not(:last-child) {
     margin-right: 10px;
   }
@@ -528,6 +537,7 @@ ShallowWrapper {
   padding: var(--pagination-padding);
   width: var(--pagination-width);
   min-height: var(--pagination-height);
+  flex-wrap: wrap;
 ",
           ],
         },
